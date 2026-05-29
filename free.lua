@@ -1,12 +1,12 @@
 local BASE_URL = "https://raw.githubusercontent.com/deividcomsono/Obsidian/main/"
 local KEY_FILE = "SurviveZombieArena.txt"
-local VALID_KEY = "ThankYouForSupportingMe"
+local VALID_KEY = "NocturnalTesting"
 
 local KeyLib = loadstring(game:HttpGet(BASE_URL .. "Library.lua"))()
 
 local loadingKey = KeyLib:CreateLoading({
-    Title = "SyzenHub",
-    Icon = 83889336114659,
+    Title = "Nocturnal Hub",
+    Icon = 115697401136927,
     TotalSteps = 5,
 })
 loadingKey:SetMessage("Initialising SyzenHub...")
@@ -23,9 +23,9 @@ task.wait(0.4)
 loadingKey:Continue()
 
 local KeyWindow = KeyLib:CreateWindow({
-    Title = "SyzenHub",
+    Title = "NocturnalHub",
     Footer = "Survive Zombie Arena v1.3",
-    Icon = 83889336114659,
+    Icon = 115697401136927,
     NotifySide = "Right",
     ShowCustomCursor = true,
     Center = true,
